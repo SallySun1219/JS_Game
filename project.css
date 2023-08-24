@@ -1,0 +1,95 @@
+body {
+    background-image: url("wall.png"); /*標題背景*/
+    background-size: 100% 100%; /*圖片比例*/
+}
+
+h1 {
+    color: rgb(195, 195, 195);
+    font-size: 40px;
+    font-family: "serif","標楷體";
+    text-align: center; /*字體置中*/
+    margin: 0% 40% 0% 40%;
+}
+
+div.time {
+	color: white; /*字體顏色*/
+    font-size: 20px;
+    font-family: "Comic Sans MS","標楷體";
+    text-align: center; /*字體置中*/
+    margin: 0.5% 45% 0.5% 45%;
+ 
+}
+
+div.screen{
+    width: 1200px;
+	height: 600px;
+    margin: auto;
+    background-color: #ffffff5a;
+	border: 7px ridge #a3550d;
+}
+
+div.cursor{
+    width: 30px;
+    height: 30px;
+    font-family: "serif","標楷體";
+    /*border: 1px solid red;*/
+    font-size: 30px;
+    color: #093e2e;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    position: absolute;
+}
+
+div.enemy{
+    width: 30px;
+    height: 30px;
+    font-family: "serif","標楷體";
+    /*border: 1px solid red;*/
+    font-size: 30px;
+    color: #f80000;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    position: absolute;
+}
+
+div.bar {
+	font-size: 25px;
+	text-align: center;
+	background-color: #caae7bb2;
+    font-family: "Verdana","標楷體";
+    color: rgb(21, 21, 21);
+	position: absolute;
+	opacity: 0.95; 
+}
+
+div.note {
+    color: red;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+
+button#new {
+	font-size: 24px;
+	border-radius: 10px;
+	border: 2px #009400 solid;
+	font-family: "Comic Sans MS", '微軟正黑體';
+	color: #004f00;
+	margin: 5px;
+}
+
+button#new:hover {
+	background-color: #E3E3E3;
+	color: #004f00;
+}
+
+button#new:active {
+	background-color: #008000;
+	color: #96FF96;
+}
